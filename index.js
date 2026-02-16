@@ -1,8 +1,8 @@
+import "dotenv/config";
 import express from "express";
+import fileUpload from "express-fileupload";
 import { sequelize } from "./db.js";
 import router from "./router.js";
-import fileUpload from "express-fileupload";
-/* import "dotenv/config"; */
 
 const PORT = 7000;
 
